@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Poiret+One')
+
+$fuente1: 'Comfortaa', cursive
+$fuente2: 'Poiret One', cursive
+
+$mibase: #F8F3D4, #FFDE7D, #00B8A9, #D0A6E0, #666666,#C4E213
+
+*
+  margin: 0
+  padding: 0
+
+body
+  background-color: nth($mibase, 1)
+  font-family: $fuente1
+  -webkit-transition: background 3ms linear
+  -moz-transition: background 3ms linear
+  -ms-transition: background 3ms linear
+  -o-transition: background 3ms linear
+  transition: background 3ms linear
+
+.nav-bar
+  position: fixed
+  display: block
+  width: 100%
+  height: 10%
+  background-color: nth($mibase, 4)
+
+.logosvg
+  width: 22%
+  height: 22%
+  margin-top: 15px
+  margin-left: 5px
+
+.azulita
+  position: relative
+  text-align: center
+  width: 20%
+  margin-left: 40%
+  margin-right: 40%
+  padding: 1px
+  border: 2px solid rgba(50, 11, 99, 0.67)
+  background-color: #e063f0
+  color: #ffffff
+
+.landi
+  width: 25%
+  position: absolute
+  top: 5px
+  right: 3px
+
+.landi:hover
+  width: 27%
+  position: absolute
+  transition-delay: 1s
+  top: 5px
+  right: 3px
+
+.userlog
+  position: absolute
+  text-decoration: none
+  top: 5%
+  right: 100px
+
+.delay1
+  position: relative
+  transition-property: font-size
+  transition-duration: 4s
+  transition-delay: 2s
+  font-size: 14px
+
+.delay1:hover
+  transition-property: font-size
+  transition-duration: 4s
+  transition-delay: 2s
+  font-size: 36px
+
+.prontobutton1
+  border-radius: 100%
+  background: #dac3e0
+  background: -moz-linear-gradient(top,  #dac3e0 1%, #6374b7 100%)
+  background: -webkit-linear-gradient(top,  #dac3e0 1%,#6374b7 100%)
+  background: linear-gradient(to bottom,  #dac3e0 1%,#6374b7 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dac3e0', endColorstr='#6374b7',GradientType=0 )
+
+.banner1
+  width: 100%
+  border: 2px solid nth($mibase, 3)
+
+.videotech
+  position:relative
+  clear: both
+  top: -90px
+  width: 100%
+
+.pie
+  text-align: center
